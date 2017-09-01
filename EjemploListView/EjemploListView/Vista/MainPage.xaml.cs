@@ -1,5 +1,4 @@
 ﻿using EjemploListView.Modelo;
-using EjemploListView.Vista;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +16,7 @@ namespace EjemploListView
 			InitializeComponent();
             Title = "Lista Principal";
             banderaClick = true;
-        }
+        } // fin constructor
 
 
         protected override async void OnAppearing()

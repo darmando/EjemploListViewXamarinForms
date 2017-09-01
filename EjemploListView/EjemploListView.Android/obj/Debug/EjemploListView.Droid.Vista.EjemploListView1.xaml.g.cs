@@ -8,16 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EjemploListView.Vista {
+namespace EjemploListView {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Ejemplos\\EjemploListView\\EjemploListView\\EjemploListView\\Vista\\EjemploListView" +
-        "1.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Diego.Lira\\Documents\\GitHub\\EjemploListViewXamarinForms\\EjemploListView\\" +
+        "EjemploListView\\Vista\\EjemploListView1.xaml")]
     public partial class EjemploListView1 : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView listViewEjemplo1;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EjemploListView1));
+            listViewEjemplo1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listViewEjemplo1");
         }
     }
 }

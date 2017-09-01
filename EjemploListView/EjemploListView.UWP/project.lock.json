@@ -22237,12 +22237,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Ejemplos\\EjemploListView\\EjemploListView\\EjemploListView.UWP\\EjemploListView.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Diego.Lira\\Documents\\GitHub\\EjemploListViewXamarinForms\\EjemploListView\\EjemploListView.UWP\\EjemploListView.UWP.csproj",
       "projectName": "EjemploListView.UWP",
-      "projectPath": "C:\\Ejemplos\\EjemploListView\\EjemploListView\\EjemploListView.UWP\\EjemploListView.UWP.csproj",
-      "projectJsonPath": "C:\\Ejemplos\\EjemploListView\\EjemploListView\\EjemploListView.UWP\\project.json",
+      "projectPath": "C:\\Users\\Diego.Lira\\Documents\\GitHub\\EjemploListViewXamarinForms\\EjemploListView\\EjemploListView.UWP\\EjemploListView.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Diego.Lira\\Documents\\GitHub\\EjemploListViewXamarinForms\\EjemploListView\\EjemploListView.UWP\\project.json",
       "packagesPath": "C:\\Users\\Diego.Lira\\.nuget\\packages\\",
-      "outputPath": "C:\\Ejemplos\\EjemploListView\\EjemploListView\\EjemploListView.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Diego.Lira\\Documents\\GitHub\\EjemploListViewXamarinForms\\EjemploListView\\EjemploListView.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Diego.Lira\\AppData\\Roaming\\NuGet\\NuGet.Config",
