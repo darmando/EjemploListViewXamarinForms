@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploListView.Vista.EjemploListView2">
+    <ContentPage.Content>
+        <ListView x:Name="listViewEjemplo2" CachingStrategy="RecycleElement" HasUnevenRows="True" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid VerticalOptions="CenterAndExpand"
+            Padding="0"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Transparent">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <!-- -->
+                            <Grid Grid.Row="0"
+                  BackgroundColor="Transparent"
+                  Padding="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"  TextColor="#c1bdba" Font="Bold" 
+                     Grid.Column="0"
+                     Text="Nombre:"/>
+                                <Label Grid.Row="0"
+                     Grid.Column="1"
+                     Text="{Binding Nombre, Mode = TwoWay}"/>
+                            </Grid>
+                            <!-- -->
+                            <Grid Grid.Row="1"
+                  BackgroundColor="Transparent"
+                  Padding="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"  TextColor="#c1bdba" Font="Bold" 
+                     Grid.Column="0"
+                     Text="Fecha Nacimiento:"/>
+                                <Label Grid.Row="0"
+                     Grid.Column="1"
+                     Text="{Binding FechaNacimiento, Mode = TwoWay}"/>
+                            </Grid>
+                            <!-- -->
+                            <Grid Grid.Row="2"
+                  BackgroundColor="Transparent"
+                  Padding="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"  TextColor="#c1bdba" Font="Bold" 
+                     Grid.Column="0"
+                     Text="Grado:"/>
+                                <Label Grid.Row="0"
+                     Grid.Column="1"
+                     Text="{Binding AnioEscolar, Mode = TwoWay}"/>
+                            </Grid>
+                            <!-- -->
+                            <Grid Grid.Row="3"
+                  BackgroundColor="Transparent"
+                  Padding="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"  TextColor="#c1bdba" Font="Bold" 
+                     Grid.Column="0"
+                     Text="Promedio:"/>
+                                <Label Grid.Row="0"   
+                     Grid.Column="1"
+                     Text="{Binding PromedioEscolar, Mode = TwoWay}"/>
+                            </Grid>
+                            <!-- -->
+                            <Grid Grid.Row="4"
+                  BackgroundColor="Transparent"
+                  Padding="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0"  TextColor="#c1bdba" Font="Bold" 
+                     Grid.Column="0"
+                     Text="Notas:"/>
+                                <Label Grid.Row="0"
+                     Grid.Column="1"
+                     Text="{Binding Notas, Mode = TwoWay}"/>
+                            </Grid>
+
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+
+
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

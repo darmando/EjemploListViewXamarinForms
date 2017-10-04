@@ -1,4 +1,5 @@
 ﻿using EjemploListView.Modelo;
+using EjemploListView.Vista;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,11 +49,12 @@ namespace EjemploListView
                             Navigation.PushAsync(new EjemploListView1());
                             break;
                         case 2:
+                            Navigation.PushAsync(new EjemploListView2());
                             break;
                         case 3:
+                            Navigation.PushAsync(new EjemploListView3());
                             break;
-                        case 4:
-                            break;
+
                     }
                     await Task.Run(async () =>
                     {
